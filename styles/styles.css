@@ -12,21 +12,22 @@
 
 body {
     font-family: 'Courier New', Courier, monospace;
-    background-color: #1b1b32;
+    background-color: #1c1c1f;
     color: #dfdfe2;
 }
 
 /* element styling */
 
 main {
-    margin: 1rem 0 0 calc(var(--nav-width) + 1rem);
+    margin: 1rem 0 0 calc(var(--nav-width) + 2rem);
 }
 
 header {
     color: #ffffff;
+    padding-bottom: 1rem;
 }
 
-/* class stlying */
+/* class styling */
 
 .nav-link {
     text-decoration: none;
@@ -40,12 +41,14 @@ header {
     left: 0;
     top: 0;
     height: 100%;
-    width: var(--nav-width);
-    margin: 1rem 0 0 1rem;
+    width: calc(var(--nav-width) + 1rem);
+    padding: 1rem 0 0 1.5rem;
+    border-right: #4c4c54 solid 3px;
 }
 
-#navbar ul {
+#navbar li {
     list-style: none;
+    padding: 0.25rem 0 0.25rem 0;
 }
 
 /* media queries */
