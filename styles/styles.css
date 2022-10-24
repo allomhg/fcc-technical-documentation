@@ -1,6 +1,6 @@
-/*
-Need to include user stories #14 and #15
-*/
+:root {
+    --nav-width: 18rem;
+}
 
 *, 
 *::before,
@@ -10,6 +10,45 @@ Need to include user stories #14 and #15
     padding: 0;
 }
 
-html {
+body {
     font-family: 'Courier New', Courier, monospace;
+    background-color: #1b1b32;
+    color: #dfdfe2;
 }
+
+/* element styling */
+
+main {
+    margin: 1rem 0 0 calc(var(--nav-width) + 1rem);
+}
+
+header {
+    color: #ffffff;
+}
+
+/* class stlying */
+
+.nav-link {
+    text-decoration: none;
+    color: #dfdfe2;
+}
+
+/* id styling */
+
+#navbar {
+    position: fixed;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: var(--nav-width);
+    margin: 1rem 0 0 1rem;
+}
+
+#navbar ul {
+    list-style: none;
+}
+
+/* media queries */
+
+/* Large devices (laptops/desktops, 992px and up) 
+@media only screen and (min-width: 992px) {...} */
