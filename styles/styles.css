@@ -1,0 +1,15 @@
+/*
+Need to include user stories #14 and #15
+*/
+
+*, 
+*::before,
+*::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-family: 'Courier New', Courier, monospace;
+}
