@@ -28,4 +28,3 @@ User Stories:
    - Your technical documentation should use at least one media query
 
 Fulfill the user stories and pass all the tests below to complete this project. Give it your own personal style. Happy Coding!
-
