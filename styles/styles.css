@@ -8,26 +8,61 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    line-height: 1.6;   /* Recommended value by w3schools */
 }
 
 body {
-    font-family: 'Courier New', Courier, monospace;
-    background-color: #1c1c1f;
+    font-family: sans-serif;
+    background-color: #1b1b32;
     color: #dfdfe2;
 }
 
 /* element styling */
 
 main {
-    margin: 1rem 0 0 calc(var(--nav-width) + 2rem);
+    margin: 1rem 1rem 0 calc(var(--nav-width) + 2rem);
+}
+
+section {
+    margin-left: 1rem;
 }
 
 header {
     color: #ffffff;
+    font-size: 2rem;
+}
+
+article {
+    margin-left: 1rem;
+}
+
+article li {
+    /*margin-left: 2rem;*/
+    margin: 0 0 1rem 2rem;
+}
+
+p {
     padding-bottom: 1rem;
 }
 
+code {
+    display: block;
+    margin-left: 1rem;
+    padding: 1rem 1rem 1rem 1rem;
+    width: 80vw;
+    background-color: black;
+}
+
+/*
+code + code {
+
+}*/
+
 /* class styling */
+
+.nav-header {
+    margin: 0 0 1rem 1rem;
+}
 
 .nav-link {
     text-decoration: none;
@@ -42,13 +77,18 @@ header {
     top: 0;
     height: 100%;
     width: calc(var(--nav-width) + 1rem);
-    padding: 1rem 0 0 1.5rem;
-    border-right: #4c4c54 solid 3px;
+    padding: 1rem 0 0 0;
+    border-right: #3b3b4f solid 3px;
 }
 
 #navbar li {
     list-style: none;
-    padding: 0.25rem 0 0.25rem 0;
+    padding: 0.25rem 0 0.25rem 1rem;
+    border-bottom: #3b3b4f solid 1px;
+}
+
+#navbar li:first-child {
+    border-top: #3b3b4f solid 1px;
 }
 
 /* media queries */

@@ -1,6 +1,11 @@
 # fcc-technical-documentation
 Technical Documentation Page certification project for freeCodeCamp Responsive Web Design.
 
+## My comments
+
+ - Using the freeCodeCamp style guide for colours.
+ - Using the text from the example technical documentation page (see below).
+
 ## Project requirements
 
 Objective: Build an app that is functionally similar to https://technical-documentation-page.freecodecamp.rocks
