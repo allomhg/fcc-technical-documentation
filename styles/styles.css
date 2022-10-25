@@ -92,7 +92,7 @@ code {
 
 /* media queries */
 
-/* Devices (768px and up) */
+/* Devices (768px and below) */
 @media only screen and (max-width: 768px) {
     main {
         margin: 1rem 1rem 1rem 1rem;
